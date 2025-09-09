@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="preload" href="css/styles.css" as="style">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <h1>Ma. Christine L. Callanta</h1>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#about" aria-current="page">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <div class="about">
+        <img src="assets/UDD_LOGO.jpg" alt="Universidad de Dagupan logo" width="200" class="about__image">
+        <div class="about__content">
+          <p>Hello! I’m <strong>Ma. Christine L. Callanta</strong>, an aspiring web developer. I care about clean code, accessibility, and performance. This page demonstrates HTML + CSS best practices.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Project One</h3>
+          <p>A simple project description goes here. Explains what the project is about in 1–2 sentences.</p>
+          <a href="#" aria-label="View Project One details">View Project One</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Project Two</h3>
+          <p>Brief description of the second project. Mention the purpose or tools used.</p>
+          <a href="#" aria-label="View Project Two details">View Project Two</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Project Three</h3>
+          <p>Description of the third project. Keep it short and clear.</p>
+          <a href="#" aria-label="View Project Three details">View Project Three</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" role="contentinfo" aria-label="Contact">
+    <address>
+      <p>
+        © <span id="year">2025</span> · Email: <a href="mailto:youremail@example.com">youremail@example.com</a>
+      </p>
+    </address>
+  </footer>
+</body>
+</html> 
